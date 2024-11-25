@@ -8,7 +8,7 @@
 
 class AccountMounts : public PlayerScript
 {
-    static const bool limitrace = true; // This set to true will only learn mounts from chars on the same team, do what you want.
+    static const bool limitrace = false; // This set to true will only learn mounts from chars on the same team, do what you want.
     std::set<uint32> excludedSpellIds; // Set to hold the Spell IDs to be excluded
 
 public:
